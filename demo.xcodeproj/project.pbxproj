@@ -16,6 +16,24 @@
 		CF3281E02C6C5D1800E58389 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3281DF2C6C5D1800E58389 /* ContentView.swift */; };
 		CF3281E22C6C5D1900E58389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3281E12C6C5D1900E58389 /* Assets.xcassets */; };
 		CF3281E52C6C5D1900E58389 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3281E42C6C5D1900E58389 /* Preview Assets.xcassets */; };
+		CF3281F62C6C5D9B00E58389 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3281F52C6C5D9B00E58389 /* WidgetKit.framework */; };
+		CF3281F82C6C5D9B00E58389 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3281F72C6C5D9B00E58389 /* SwiftUI.framework */; };
+		CF3281FB2C6C5D9B00E58389 /* demo_widget_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3281FA2C6C5D9B00E58389 /* demo_widget_1.swift */; };
+		CF3281FD2C6C5D9B00E58389 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3281FC2C6C5D9B00E58389 /* AppIntent.swift */; };
+		CF3281FF2C6C5D9D00E58389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3281FE2C6C5D9D00E58389 /* Assets.xcassets */; };
+		CF3282032C6C5D9D00E58389 /* demo-widget-1Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CF3281F32C6C5D9B00E58389 /* demo-widget-1Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CF5F21A02C6DA46D006EE20A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3281F52C6C5D9B00E58389 /* WidgetKit.framework */; };
+		CF5F21A12C6DA46D006EE20A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3281F72C6C5D9B00E58389 /* SwiftUI.framework */; };
+		CF5F21A42C6DA46D006EE20A /* demo_widget_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5F21A32C6DA46D006EE20A /* demo_widget_2.swift */; };
+		CF5F21A62C6DA46F006EE20A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5F21A52C6DA46F006EE20A /* Assets.xcassets */; };
+		CF5F21AA2C6DA46F006EE20A /* demo-widget-2Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CF5F219F2C6DA46C006EE20A /* demo-widget-2Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CF6D1B862C71FC8F004B78D0 /* akita_run_8fps.gif in Resources */ = {isa = PBXBuildFile; fileRef = CF6D1B852C71FC8F004B78D0 /* akita_run_8fps.gif */; };
+		CF6D1B872C71FC8F004B78D0 /* akita_run_8fps.gif in Resources */ = {isa = PBXBuildFile; fileRef = CF6D1B852C71FC8F004B78D0 /* akita_run_8fps.gif */; };
+		CF6D1B882C71FC8F004B78D0 /* akita_run_8fps.gif in Resources */ = {isa = PBXBuildFile; fileRef = CF6D1B852C71FC8F004B78D0 /* akita_run_8fps.gif */; };
+		CF6D1B892C71FC8F004B78D0 /* akita_run_8fps.gif in Resources */ = {isa = PBXBuildFile; fileRef = CF6D1B852C71FC8F004B78D0 /* akita_run_8fps.gif */; };
+		CFBBDEEB2C746FE000ACA6AF /* brown_run_8fps.gif in Resources */ = {isa = PBXBuildFile; fileRef = CFBBDEEA2C746FE000ACA6AF /* brown_run_8fps.gif */; };
+		CFBBDEED2C74702200ACA6AF /* brown_walk_fast_8fps.gif in Resources */ = {isa = PBXBuildFile; fileRef = CFBBDEEC2C74702200ACA6AF /* brown_walk_fast_8fps.gif */; };
+		CFBBDEEF2C74705900ACA6AF /* brown_walk_8fps.gif in Resources */ = {isa = PBXBuildFile; fileRef = CFBBDEEE2C74705900ACA6AF /* brown_walk_8fps.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +43,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = CF3281D72C6C5D1800E58389;
 			remoteInfo = "demo Watch App";
+		};
+		CF3282012C6C5D9D00E58389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3281C02C6C5D1600E58389 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3281F22C6C5D9B00E58389;
+			remoteInfo = "demo-widget-1Extension";
+		};
+		CF5F21A82C6DA46F006EE20A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3281C02C6C5D1600E58389 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF5F219E2C6DA46C006EE20A;
+			remoteInfo = "demo-widget-2Extension";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -40,6 +72,18 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF3282072C6C5D9D00E58389 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CF5F21AA2C6DA46F006EE20A /* demo-widget-2Extension.appex in Embed Foundation Extensions */,
+				CF3282032C6C5D9D00E58389 /* demo-widget-1Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +97,23 @@
 		CF3281DF2C6C5D1800E58389 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CF3281E12C6C5D1900E58389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF3281E42C6C5D1900E58389 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF3281F32C6C5D9B00E58389 /* demo-widget-1Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "demo-widget-1Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3281F52C6C5D9B00E58389 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		CF3281F72C6C5D9B00E58389 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		CF3281FA2C6C5D9B00E58389 /* demo_widget_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo_widget_1.swift; sourceTree = "<group>"; };
+		CF3281FC2C6C5D9B00E58389 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		CF3281FE2C6C5D9D00E58389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF3282002C6C5D9D00E58389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3282082C6C769800E58389 /* demo Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "demo Watch App.entitlements"; sourceTree = "<group>"; };
+		CF5F219F2C6DA46C006EE20A /* demo-widget-2Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "demo-widget-2Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5F21A32C6DA46D006EE20A /* demo_widget_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo_widget_2.swift; sourceTree = "<group>"; };
+		CF5F21A52C6DA46F006EE20A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF5F21A72C6DA46F006EE20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6D1B7E2C6F5496004B78D0 /* demo-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "demo-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CF6D1B852C71FC8F004B78D0 /* akita_run_8fps.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = akita_run_8fps.gif; path = Assets.xcassets/akita_run_8fps.dataset/akita_run_8fps.gif; sourceTree = "<group>"; };
+		CFBBDEEA2C746FE000ACA6AF /* brown_run_8fps.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = brown_run_8fps.gif; sourceTree = "<group>"; };
+		CFBBDEEC2C74702200ACA6AF /* brown_walk_fast_8fps.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = brown_walk_fast_8fps.gif; sourceTree = "<group>"; };
+		CFBBDEEE2C74705900ACA6AF /* brown_walk_8fps.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = brown_walk_8fps.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +131,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF3281F02C6C5D9B00E58389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3281F82C6C5D9B00E58389 /* SwiftUI.framework in Frameworks */,
+				CF3281F62C6C5D9B00E58389 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5F219C2C6DA46C006EE20A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5F21A12C6DA46D006EE20A /* SwiftUI.framework in Frameworks */,
+				CF5F21A02C6DA46D006EE20A /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +157,9 @@
 			children = (
 				CF3281CA2C6C5D1600E58389 /* demo */,
 				CF3281DC2C6C5D1800E58389 /* demo Watch App */,
+				CF3281F92C6C5D9B00E58389 /* demo-widget-1 */,
+				CF5F21A22C6DA46D006EE20A /* demo-widget-2 */,
+				CF3281F42C6C5D9B00E58389 /* Frameworks */,
 				CF3281C92C6C5D1600E58389 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +169,8 @@
 			children = (
 				CF3281C82C6C5D1600E58389 /* demo.app */,
 				CF3281D82C6C5D1800E58389 /* demo Watch App.app */,
+				CF3281F32C6C5D9B00E58389 /* demo-widget-1Extension.appex */,
+				CF5F219F2C6DA46C006EE20A /* demo-widget-2Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,7 +178,11 @@
 		CF3281CA2C6C5D1600E58389 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				CFBBDEEA2C746FE000ACA6AF /* brown_run_8fps.gif */,
+				CFBBDEEC2C74702200ACA6AF /* brown_walk_fast_8fps.gif */,
+				CF6D1B852C71FC8F004B78D0 /* akita_run_8fps.gif */,
 				CF3281CB2C6C5D1600E58389 /* demoApp.swift */,
+				CFBBDEEE2C74705900ACA6AF /* brown_walk_8fps.gif */,
 				CF3281CD2C6C5D1600E58389 /* ContentView.swift */,
 				CF3281CF2C6C5D1800E58389 /* Assets.xcassets */,
 				CF3281D12C6C5D1800E58389 /* Preview Content */,
@@ -113,6 +201,8 @@
 		CF3281DC2C6C5D1800E58389 /* demo Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				CF6D1B7E2C6F5496004B78D0 /* demo-Watch-App-Info.plist */,
+				CF3282082C6C769800E58389 /* demo Watch App.entitlements */,
 				CF3281DD2C6C5D1800E58389 /* demoApp.swift */,
 				CF3281DF2C6C5D1800E58389 /* ContentView.swift */,
 				CF3281E12C6C5D1900E58389 /* Assets.xcassets */,
@@ -127,6 +217,36 @@
 				CF3281E42C6C5D1900E58389 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF3281F42C6C5D9B00E58389 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF3281F52C6C5D9B00E58389 /* WidgetKit.framework */,
+				CF3281F72C6C5D9B00E58389 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF3281F92C6C5D9B00E58389 /* demo-widget-1 */ = {
+			isa = PBXGroup;
+			children = (
+				CF3281FA2C6C5D9B00E58389 /* demo_widget_1.swift */,
+				CF3281FC2C6C5D9B00E58389 /* AppIntent.swift */,
+				CF3281FE2C6C5D9D00E58389 /* Assets.xcassets */,
+				CF3282002C6C5D9D00E58389 /* Info.plist */,
+			);
+			path = "demo-widget-1";
+			sourceTree = "<group>";
+		};
+		CF5F21A22C6DA46D006EE20A /* demo-widget-2 */ = {
+			isa = PBXGroup;
+			children = (
+				CF5F21A32C6DA46D006EE20A /* demo_widget_2.swift */,
+				CF5F21A52C6DA46F006EE20A /* Assets.xcassets */,
+				CF5F21A72C6DA46F006EE20A /* Info.plist */,
+			);
+			path = "demo-widget-2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,15 +278,52 @@
 				CF3281D42C6C5D1800E58389 /* Sources */,
 				CF3281D52C6C5D1800E58389 /* Frameworks */,
 				CF3281D62C6C5D1800E58389 /* Resources */,
+				CF3282072C6C5D9D00E58389 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CF3282022C6C5D9D00E58389 /* PBXTargetDependency */,
+				CF5F21A92C6DA46F006EE20A /* PBXTargetDependency */,
 			);
 			name = "demo Watch App";
 			productName = "demo Watch App";
 			productReference = CF3281D82C6C5D1800E58389 /* demo Watch App.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CF3281F22C6C5D9B00E58389 /* demo-widget-1Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3282042C6C5D9D00E58389 /* Build configuration list for PBXNativeTarget "demo-widget-1Extension" */;
+			buildPhases = (
+				CF3281EF2C6C5D9B00E58389 /* Sources */,
+				CF3281F02C6C5D9B00E58389 /* Frameworks */,
+				CF3281F12C6C5D9B00E58389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "demo-widget-1Extension";
+			productName = "demo-widget-1Extension";
+			productReference = CF3281F32C6C5D9B00E58389 /* demo-widget-1Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CF5F219E2C6DA46C006EE20A /* demo-widget-2Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF5F21AD2C6DA46F006EE20A /* Build configuration list for PBXNativeTarget "demo-widget-2Extension" */;
+			buildPhases = (
+				CF5F219B2C6DA46C006EE20A /* Sources */,
+				CF5F219C2C6DA46C006EE20A /* Frameworks */,
+				CF5F219D2C6DA46C006EE20A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "demo-widget-2Extension";
+			productName = "demo-widget-2Extension";
+			productReference = CF5F219F2C6DA46C006EE20A /* demo-widget-2Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -182,6 +339,12 @@
 						CreatedOnToolsVersion = 15.4;
 					};
 					CF3281D72C6C5D1800E58389 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CF3281F22C6C5D9B00E58389 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CF5F219E2C6DA46C006EE20A = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -201,6 +364,8 @@
 			targets = (
 				CF3281C72C6C5D1600E58389 /* demo */,
 				CF3281D72C6C5D1800E58389 /* demo Watch App */,
+				CF3281F22C6C5D9B00E58389 /* demo-widget-1Extension */,
+				CF5F219E2C6DA46C006EE20A /* demo-widget-2Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -210,8 +375,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF6D1B862C71FC8F004B78D0 /* akita_run_8fps.gif in Resources */,
 				CF3281D32C6C5D1800E58389 /* Preview Assets.xcassets in Resources */,
+				CFBBDEEB2C746FE000ACA6AF /* brown_run_8fps.gif in Resources */,
+				CFBBDEEF2C74705900ACA6AF /* brown_walk_8fps.gif in Resources */,
 				CF3281D02C6C5D1800E58389 /* Assets.xcassets in Resources */,
+				CFBBDEED2C74702200ACA6AF /* brown_walk_fast_8fps.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +388,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF6D1B872C71FC8F004B78D0 /* akita_run_8fps.gif in Resources */,
 				CF3281E52C6C5D1900E58389 /* Preview Assets.xcassets in Resources */,
 				CF3281E22C6C5D1900E58389 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3281F12C6C5D9B00E58389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6D1B882C71FC8F004B78D0 /* akita_run_8fps.gif in Resources */,
+				CF3281FF2C6C5D9D00E58389 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5F219D2C6DA46C006EE20A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6D1B892C71FC8F004B78D0 /* akita_run_8fps.gif in Resources */,
+				CF5F21A62C6DA46F006EE20A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +433,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF3281EF2C6C5D9B00E58389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3281FB2C6C5D9B00E58389 /* demo_widget_1.swift in Sources */,
+				CF3281FD2C6C5D9B00E58389 /* AppIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5F219B2C6DA46C006EE20A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5F21A42C6DA46D006EE20A /* demo_widget_2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -252,6 +457,16 @@
 			isa = PBXTargetDependency;
 			target = CF3281D72C6C5D1800E58389 /* demo Watch App */;
 			targetProxy = CF3281DA2C6C5D1800E58389 /* PBXContainerItemProxy */;
+		};
+		CF3282022C6C5D9D00E58389 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3281F22C6C5D9B00E58389 /* demo-widget-1Extension */;
+			targetProxy = CF3282012C6C5D9D00E58389 /* PBXContainerItemProxy */;
+		};
+		CF5F21A92C6DA46F006EE20A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF5F219E2C6DA46C006EE20A /* demo-widget-2Extension */;
+			targetProxy = CF5F21A82C6DA46F006EE20A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -373,17 +588,21 @@
 		CF3281E92C6C5D1900E58389 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "demo Watch App/demo Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"demo Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = QTD33HXD54;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "demo-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = demo;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = lismin.demo;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,24 +615,28 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Debug;
 		};
 		CF3281EA2C6C5D1900E58389 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "demo Watch App/demo Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"demo Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = QTD33HXD54;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "demo-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = demo;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = lismin.demo;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -427,7 +650,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
 		};
@@ -449,7 +672,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,7 +705,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -495,6 +718,128 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF3282052C6C5D9D00E58389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTD33HXD54;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "demo-widget-1/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "demo-widget-1";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lismin.demo.watchkitapp.demo-widget-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		CF3282062C6C5D9D00E58389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTD33HXD54;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "demo-widget-1/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "demo-widget-1";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lismin.demo.watchkitapp.demo-widget-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		CF5F21AB2C6DA46F006EE20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTD33HXD54;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "demo-widget-2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "demo-widget-2";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lismin.demo.watchkitapp.demo-widget-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		CF5F21AC2C6DA46F006EE20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTD33HXD54;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "demo-widget-2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "demo-widget-2";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lismin.demo.watchkitapp.demo-widget-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
 			};
 			name = Release;
 		};
@@ -524,6 +869,24 @@
 			buildConfigurations = (
 				CF3281ED2C6C5D1900E58389 /* Debug */,
 				CF3281EE2C6C5D1900E58389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3282042C6C5D9D00E58389 /* Build configuration list for PBXNativeTarget "demo-widget-1Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3282052C6C5D9D00E58389 /* Debug */,
+				CF3282062C6C5D9D00E58389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF5F21AD2C6DA46F006EE20A /* Build configuration list for PBXNativeTarget "demo-widget-2Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5F21AB2C6DA46F006EE20A /* Debug */,
+				CF5F21AC2C6DA46F006EE20A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
